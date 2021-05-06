@@ -1,0 +1,25 @@
+.body {
+  background-color: #ededed;
+}
+
+.section {
+  height: 100vh;
+  padding-top: 2vh;
+}
+
+.background-video {
+  width: 98vw;
+  height: 78vh;
+  border-radius: 45px;
+  opacity: 0.5;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.div-block {
+  width: 98vw;
+  height: 78vh;
+  margin-left: 1vw;
+  border-radius: 45px;
+  background-color: #000;
+}
