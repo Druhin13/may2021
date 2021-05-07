@@ -6,7 +6,7 @@
 
 .section {
   height: 100vh;
-  padding-top: 2vh;
+  padding-top: 1vh;
 }
 
 .background-video {
@@ -18,11 +18,11 @@
   filter: grayscale(100%);
 }
 
-.div-block {
+.home-hero-vid {
   width: 99vw;
   height: 78vh;
   margin-left: 0.5vw;
-  border-radius: 45px;
+  border-radius: 50px;
   background-color: #000;
 }
 
@@ -43,7 +43,7 @@
 .background-video-2 {
   width: 100%;
   height: 100%;
-  border-radius: 45px;
+  border-radius: 50px;
   opacity: 0.4;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -52,6 +52,7 @@
 .red-overlay {
   position: absolute;
   z-index: 1;
+  display: none;
   width: 99vw;
   height: 78vh;
   border-radius: 45px;
@@ -67,7 +68,7 @@
   letter-spacing: -0.13vw;
 }
 
-.div-block-3 {
+.main-text-holder {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -110,8 +111,18 @@
   font-style: italic;
 }
 
+.black-overlay {
+  position: absolute;
+  z-index: 1;
+  width: 99vw;
+  height: 78vh;
+  border-radius: 45px;
+  background-color: #000;
+  opacity: 0.7;
+}
+
 @media screen and (max-width: 991px) {
-  .div-block {
+  .home-hero-vid {
     width: 98vw;
     margin-left: 1vw;
     border-radius: 35px;
@@ -136,7 +147,7 @@
     letter-spacing: -0.225vw;
   }
 
-  .div-block-3 {
+  .main-text-holder {
     margin-top: 3.5vh;
   }
 
@@ -151,10 +162,15 @@
   .text-span-5 {
     font-size: 5vw;
   }
+
+  .black-overlay {
+    width: 98vw;
+    border-radius: 35px;
+  }
 }
 
 @media screen and (max-width: 479px) {
-  .div-block {
+  .home-hero-vid {
     height: 74vh;
     border-radius: 30px;
   }
@@ -187,6 +203,12 @@
 
   .text-span-5 {
     font-size: 7.5vw;
+  }
+
+  .black-overlay {
+    width: 98vw;
+    height: 74vh;
+    border-radius: 30px;
   }
 }
 
