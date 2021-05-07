@@ -42,7 +42,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 45px;
   background-color: #000;
 }
 
@@ -63,7 +63,7 @@
 .background-video-2 {
   width: 100%;
   height: 100%;
-  border-radius: 50px;
+  border-radius: 45px;
   opacity: 0.4;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -178,7 +178,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 10vh 5vw;
+  width: 100vw;
+  padding: 10vh 5vw 5vh;
   background-color: #ededed;
 }
 
@@ -448,6 +449,58 @@
   align-items: flex-end;
 }
 
+.section-3 {
+  width: 100vw;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  background-color: #ededed;
+}
+
+.case-study-vid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90vw;
+  height: 78vh;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 45px;
+  background-color: #000;
+}
+
+.cs-black-overlay {
+  position: absolute;
+  z-index: 1;
+  width: 90vw;
+  height: 78vh;
+  border-radius: 45px;
+  background-color: #000;
+  opacity: 0.35;
+}
+
+.cs-background-video {
+  width: 100%;
+  height: 100%;
+  border-radius: 45px;
+  opacity: 0.4;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 @media screen and (max-width: 991px) {
   .home-hero-vid {
     width: 98vw;
@@ -649,6 +702,24 @@
   .menu-title {
     font-size: 2vw;
   }
+
+  .case-study-vid {
+    width: 90vw;
+    height: 50vh;
+    margin-left: 5vw;
+    border-radius: 35px;
+  }
+
+  .cs-black-overlay {
+    width: 90vw;
+    height: 50vh;
+    border-radius: 35px;
+    opacity: 0.6;
+  }
+
+  .cs-background-video {
+    border-radius: 35px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -825,6 +896,28 @@
 
   .menu-title {
     font-size: 4.3vw;
+  }
+
+  .section-3 {
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
+  }
+
+  .case-study-vid {
+    height: 50vh;
+    border-radius: 30px;
+  }
+
+  .cs-black-overlay {
+    width: 90vw;
+    height: 50vh;
+    border-radius: 30px;
+  }
+
+  .cs-background-video {
+    border-radius: 30px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
 }
 
