@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri May 07 2021 11:59:19 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri May 07 2021 12:45:52 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="609358f814171f605138bc3e" data-wf-site="609358f814171f792638bc3c" lang="en">
 <head>
   <meta charset="utf-8">
@@ -36,10 +36,26 @@
 		color: #dedede;
 		background: #131313;
 	}
+  /*	adding blend mode to the menu */
+	.menu-bar {
+		mix-blend-mode: difference;
+	}
+  .menu-item {
+		mix-blend-mode: difference;
+	}
 </style>
 </head>
 <body class="body">
   <div class="section">
+    <div class="menu-bar">
+      <div class="title-menu">
+        <div class="menu-title">DRUH.in<br>Portfolio ‘21</div>
+      </div>
+      <div class="menu">
+        <div class="menu-item">Works</div>
+        <div class="menu-item">contact</div>
+      </div>
+    </div>
     <div data-w-id="c4fa3122-3b8c-f977-145a-5d6e441408ea" class="home-hero-vid">
       <div data-w-id="dcb26097-f71e-60c7-c627-444ca62cca03" class="opening-title">Druh.in © 2021</div>
       <div data-w-id="624431ac-ed86-0be6-eeef-b871f4a80786" class="black-overlay"></div>
