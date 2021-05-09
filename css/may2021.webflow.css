@@ -998,6 +998,10 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .txt-block {
@@ -1151,6 +1155,7 @@
   }
 
   .div-block-3 {
+    width: 36.5vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1386,7 +1391,7 @@
   }
 
   .section-2 {
-    padding-top: 10vh;
+    padding-top: 15vh;
     padding-bottom: 5vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1525,6 +1530,7 @@
   }
 
   .div-block-3 {
+    width: 100%;
     margin-top: 10vh;
   }
 
