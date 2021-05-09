@@ -1747,6 +1747,14 @@
     margin-top: 10vh;
   }
 
+  .div-block-3.testi {
+    margin-top: 4.35vh;
+  }
+
+  .div-block-3.other-works {
+    margin-top: 0vh;
+  }
+
   .menu-bar {
     padding-right: 6.5vw;
     padding-left: 6.5vw;
@@ -1966,7 +1974,7 @@
   }
 
   .section-4 {
-    padding-top: 15vh;
+    padding-top: 10vh;
     padding-bottom: 5vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1975,9 +1983,42 @@
     flex-direction: column;
   }
 
+  .text-span-22 {
+    font-size: 4.5vw;
+    letter-spacing: -0.225vw;
+  }
+
+  .text-span-23 {
+    font-size: 4.5vw;
+    letter-spacing: -0.225vw;
+  }
+
+  .text-span-24 {
+    font-size: 4.5vw;
+    letter-spacing: -0.225vw;
+  }
+
+  .text-span-25 {
+    font-size: 4.5vw;
+    line-height: 1.1;
+    letter-spacing: -0.225vw;
+  }
+
+  .text-span-26 {
+    font-size: 4.5vw;
+    line-height: 1.1;
+    letter-spacing: -0.225vw;
+  }
+
+  .text-span-27 {
+    font-size: 4.5vw;
+    line-height: 1.1;
+    letter-spacing: -0.225vw;
+  }
+
   .section-5 {
-    padding-top: 15vh;
-    padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1995,12 +2036,28 @@
   }
 
   .testi2 {
+    margin-top: 0vh;
     font-size: 4.3vw;
     letter-spacing: -0.215vw;
   }
 
   .testi2.awards {
     line-height: 1.1;
+  }
+
+  .text-span-28 {
+    font-size: 4.5vw;
+    letter-spacing: -0.225vw;
+  }
+
+  .text-span-29 {
+    font-size: 4.5vw;
+    letter-spacing: -0.225vw;
+  }
+
+  .text-span-30 {
+    font-size: 4.5vw;
+    letter-spacing: -0.225vw;
   }
 }
 
