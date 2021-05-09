@@ -1115,10 +1115,10 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .txt-block {
@@ -1198,6 +1198,7 @@
 
   .txt-block2 {
     width: 36.5vw;
+    margin-top: 0vh;
     margin-left: 0vw;
   }
 
@@ -1282,6 +1283,13 @@
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+
+  .div-block-3.other-works {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
 
   .menu-bar {
@@ -1461,10 +1469,40 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .text-span-22 {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
+  }
+
+  .text-span-23 {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
+  }
+
+  .text-span-24 {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
+  }
+
+  .text-span-25 {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
+  }
+
+  .text-span-26 {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
+  }
+
+  .text-span-27 {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
   }
 
   .section-5 {
@@ -1476,10 +1514,10 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .testi-name {
@@ -1493,13 +1531,28 @@
   }
 
   .testi2 {
-    margin-top: 2vh;
+    margin-top: 4vh;
     font-size: 1.85vw;
     letter-spacing: -0.09vw;
   }
 
   .testi2.tablet {
     margin-top: 2vh;
+  }
+
+  .text-span-28 {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
+  }
+
+  .text-span-29 {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
+  }
+
+  .text-span-30 {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
   }
 }
 
