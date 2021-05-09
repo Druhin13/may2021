@@ -232,6 +232,7 @@
   display: inline;
   color: #111920;
   font-size: 1.56vw;
+  letter-spacing: -0.078vw;
   text-transform: uppercase;
 }
 
@@ -253,14 +254,14 @@
 .text-span-6 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-7 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
@@ -289,98 +290,98 @@
 .text-span-8 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-9 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-10 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-11 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-12 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-13 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-14 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-15 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-16 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-17 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-18 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-19 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-20 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
 .text-span-21 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
 }
 
@@ -528,7 +529,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.35;
+  opacity: 0.25;
 }
 
 .cs-background-video {
@@ -629,7 +630,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.35;
+  opacity: 0.2;
 }
 
 .cs-holder2 {
@@ -690,7 +691,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.35;
+  opacity: 0.3;
 }
 
 .cs-card4 {
@@ -740,7 +741,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.35;
+  opacity: 0.25;
 }
 
 @media screen and (max-width: 991px) {
