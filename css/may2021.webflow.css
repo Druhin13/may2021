@@ -272,14 +272,14 @@
 .text-span-6 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-7 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
@@ -289,16 +289,17 @@
   display: -ms-flexbox;
   display: flex;
   width: 22.65vw;
+  margin-top: 6vh;
   margin-left: 4.6vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -308,98 +309,98 @@
 .text-span-8 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-9 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-10 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-11 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-12 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-13 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-14 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-15 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-16 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-17 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-18 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-19 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-20 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
 .text-span-21 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
-  font-style: normal;
+  font-style: italic;
   letter-spacing: -0.06vw;
 }
 
@@ -412,6 +413,13 @@
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+}
+
+.div-block-3.testi {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .menu-bar {
@@ -502,7 +510,7 @@
 
 .section-3 {
   width: 100vw;
-  padding: 20vh 4vw 15vh;
+  padding: 20vh 4vw 8.15vh;
   background-color: #ededed;
 }
 
@@ -936,6 +944,115 @@
   opacity: 0.15;
 }
 
+.section-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  padding: 15vh 4vw 0vh;
+  background-color: #ededed;
+}
+
+.text-span-22 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.2vw;
+  font-style: italic;
+  letter-spacing: -0.06vw;
+}
+
+.text-span-23 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.2vw;
+  font-style: italic;
+  letter-spacing: -0.06vw;
+}
+
+.text-span-24 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.2vw;
+  font-style: italic;
+  letter-spacing: -0.06vw;
+}
+
+.text-span-25 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.2vw;
+  font-style: italic;
+  letter-spacing: -0.06vw;
+}
+
+.text-span-26 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.2vw;
+  font-style: italic;
+  letter-spacing: -0.06vw;
+}
+
+.text-span-27 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.2vw;
+  font-style: italic;
+  letter-spacing: -0.06vw;
+}
+
+.section-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  padding: 10vh 4vw 15vh;
+  background-color: #ededed;
+}
+
+.testi-name {
+  margin-top: 1.5vh;
+  color: #111920;
+  font-size: 1.145vw;
+  letter-spacing: -0.057vw;
+}
+
+.testi-name.cs {
+  color: #ededed;
+}
+
+.testi2 {
+  margin-top: 0vh;
+  color: #111920;
+  font-size: 1.145vw;
+  letter-spacing: -0.057vw;
+}
+
+.testi2.cs {
+  color: #ededed;
+}
+
+.div-block-5 {
+  margin-top: 2.35vh;
+}
+
+.text-span-28 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.2vw;
+  font-style: italic;
+  letter-spacing: -0.06vw;
+}
+
+.text-span-29 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.2vw;
+  font-style: italic;
+  letter-spacing: -0.06vw;
+}
+
+.text-span-30 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.2vw;
+  font-style: italic;
+  letter-spacing: -0.06vw;
+}
+
 @media screen and (max-width: 991px) {
   .home-hero-vid {
     width: 98vw;
@@ -1333,6 +1450,56 @@
   .cs-black-overlay7 {
     width: 35vw;
     border-radius: 25px 25px 0px 0px;
+  }
+
+  .section-4 {
+    padding-top: 10vh;
+    padding-right: 4.5vw;
+    padding-left: 4.5vw;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .section-5 {
+    padding-top: 10vh;
+    padding-right: 4.5vw;
+    padding-left: 4.5vw;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .testi-name {
+    margin-top: 2vh;
+    font-size: 1.85vw;
+    letter-spacing: -0.09vw;
+  }
+
+  .testi-name.tablet {
+    margin-top: 2vh;
+  }
+
+  .testi2 {
+    margin-top: 2vh;
+    font-size: 1.85vw;
+    letter-spacing: -0.09vw;
+  }
+
+  .testi2.tablet {
+    margin-top: 2vh;
   }
 }
 
@@ -1743,6 +1910,44 @@
     width: 91vw;
     height: 20vh;
     border-radius: 30px 30px 0px 0px;
+  }
+
+  .section-4 {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .section-5 {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .testi-name {
+    font-size: 4.3vw;
+    letter-spacing: -0.215vw;
+  }
+
+  .testi-name.awards {
+    line-height: 1.1;
+  }
+
+  .testi2 {
+    font-size: 4.3vw;
+    letter-spacing: -0.215vw;
+  }
+
+  .testi2.awards {
+    line-height: 1.1;
   }
 }
 
