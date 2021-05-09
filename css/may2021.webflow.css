@@ -990,6 +990,9 @@
   }
 
   .section-2 {
+    padding-top: 10vh;
+    padding-right: 4.5vw;
+    padding-left: 4.5vw;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -1011,6 +1014,34 @@
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+  }
+
+  .txt-block.cs {
+    width: 44vw;
+  }
+
+  .txt-block.cs2 {
+    width: 36vw;
+  }
+
+  .txt-block.cs3 {
+    width: 36vw;
+  }
+
+  .txt-block.cs4 {
+    width: 44vw;
+  }
+
+  .txt-block.cs5 {
+    width: 44vw;
+  }
+
+  .txt-block.cs6 {
+    width: 35vw;
+  }
+
+  .txt-block.cs7 {
+    width: 35vw;
   }
 
   .text-block-2 {
@@ -1138,22 +1169,27 @@
     font-size: 2vw;
   }
 
+  .section-3 {
+    padding-top: 10vh;
+    padding-right: 4.5vw;
+    padding-left: 4.5vw;
+  }
+
   .case-study-vid {
-    width: 90vw;
-    height: 50vh;
-    margin-left: 5vw;
-    border-radius: 35px;
+    width: 44vw;
+    height: 25vh;
+    border-radius: 25px;
   }
 
   .cs-black-overlay {
-    width: 90vw;
-    height: 50vh;
-    border-radius: 35px;
+    width: 44vw;
+    height: 25vh;
+    border-radius: 25px;
     opacity: 0.4;
   }
 
   .cs-background-video {
-    border-radius: 35px;
+    border-radius: 25px;
   }
 
   .cs-txt-block {
@@ -1172,87 +1208,124 @@
     justify-content: flex-start;
   }
 
+  .cs-card {
+    width: 44vw;
+  }
+
+  .cs-card2 {
+    width: 36vw;
+    margin-left: 11vw;
+  }
+
   .case-study-vid2 {
-    width: 90vw;
-    height: 50vh;
-    margin-left: 5vw;
-    border-radius: 35px;
+    width: 36vw;
+    height: 18vh;
+    border-radius: 25px;
   }
 
   .cs-black-overlay2 {
-    width: 90vw;
-    height: 50vh;
-    border-radius: 35px;
+    width: 36vw;
+    height: 18vh;
+    border-radius: 25px;
     opacity: 0.4;
+  }
+
+  .cs-holder2 {
+    margin-top: 7.5vh;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .cs-card3 {
+    width: 36vw;
   }
 
   .case-study-vid3 {
-    width: 90vw;
-    height: 50vh;
-    margin-left: 5vw;
-    border-radius: 35px;
+    width: 36vw;
+    height: 27vh;
+    border-radius: 25px;
   }
 
   .cs-black-overlay3 {
-    width: 90vw;
-    height: 50vh;
-    border-radius: 35px;
+    width: 36vw;
+    height: 27vh;
+    border-radius: 25px;
     opacity: 0.4;
+  }
+
+  .cs-card4 {
+    width: 44vw;
+    margin-left: 11vw;
   }
 
   .case-study-vid4 {
-    width: 90vw;
-    height: 50vh;
-    margin-left: 5vw;
-    border-radius: 35px;
+    width: 44vw;
+    border-radius: 25px;
   }
 
   .cs-black-overlay4 {
-    width: 90vw;
-    height: 50vh;
-    border-radius: 35px;
+    width: 44vw;
+    border-radius: 25px;
     opacity: 0.4;
+  }
+
+  .cs-holder3 {
+    margin-top: 7.5vh;
+  }
+
+  .cs-card5 {
+    width: 44vw;
+    margin-left: 12vw;
   }
 
   .case-study-vid5 {
-    width: 90vw;
-    height: 50vh;
-    margin-left: 5vw;
-    border-radius: 35px;
+    width: 44vw;
+    height: 35vh;
+    border-radius: 25px;
   }
 
   .cs-black-overlay5 {
-    width: 90vw;
-    height: 50vh;
-    border-radius: 35px;
+    width: 44vw;
+    height: 35vh;
+    border-radius: 25px;
     opacity: 0.4;
+  }
+
+  .cs-card6 {
+    width: 35vw;
   }
 
   .case-study-vid6 {
-    width: 90vw;
-    height: 50vh;
-    margin-left: 5vw;
-    border-radius: 35px;
+    width: 35vw;
+    height: 18.5vh;
+    border-radius: 25px;
   }
 
   .cs-black-overlay6 {
-    width: 90vw;
-    height: 50vh;
-    border-radius: 35px;
+    width: 35vw;
+    height: 18.5vh;
+    border-radius: 25px;
     opacity: 0.4;
   }
 
+  .cs-card7 {
+    width: 35vw;
+  }
+
+  .cs-holder4 {
+    margin-top: 7.5vh;
+  }
+
   .case-study-vid7 {
-    width: 90vw;
-    height: 50vh;
-    margin-left: 5vw;
-    border-radius: 35px;
+    width: 35vw;
+    border-radius: 25px;
   }
 
   .cs-black-overlay7 {
-    width: 90vw;
-    height: 50vh;
-    border-radius: 35px;
+    width: 35vw;
+    border-radius: 25px;
     opacity: 0.4;
   }
 }
