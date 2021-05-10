@@ -270,7 +270,7 @@
 }
 
 .text-block-2.contact {
-  padding-left: 1.25vw;
+  padding-left: 0vw;
 }
 
 .text-block-3 {
@@ -494,7 +494,7 @@
 .menu-item {
   position: relative;
   display: inline;
-  margin-left: 1.35vw;
+  margin-left: 0vw;
   color: #ededed;
   font-size: 1.145vw;
   letter-spacing: -0.057vw;
@@ -1033,6 +1033,10 @@
   color: #ededed;
 }
 
+.testi-name.contact {
+  margin-top: 0vh;
+}
+
 .testi2 {
   margin-top: 0vh;
   color: #111920;
@@ -1141,6 +1145,26 @@
   font-style: italic;
   font-weight: 400;
   letter-spacing: -0.06vw;
+}
+
+.link-block {
+  margin-left: 1.35vw;
+  text-decoration: none;
+}
+
+.link-block-2 {
+  margin-left: 1.35vw;
+  text-decoration: none;
+}
+
+.link-block-3 {
+  margin-left: 1.25vw;
+  text-decoration: none;
+}
+
+.link-block-4 {
+  margin-top: 1.5vh;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
