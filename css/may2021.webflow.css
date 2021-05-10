@@ -1053,6 +1053,52 @@
   letter-spacing: -0.06vw;
 }
 
+.marquee-horizontal {
+  position: static;
+  z-index: 100;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 4.15vh;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid #111920;
+  border-bottom: 1px solid #111920;
+  background-color: #fff;
+}
+
+.moving {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-4 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-family: Helveticaneue, sans-serif;
+  color: #111920;
+  font-size: 1.25vw;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 991px) {
   .home-hero-vid {
     width: 98vw;
@@ -1553,6 +1599,14 @@
   .text-span-30 {
     font-size: 2vw;
     letter-spacing: -0.1vw;
+  }
+
+  .marquee-horizontal {
+    height: 4.25vh;
+  }
+
+  .text-block-4 {
+    font-size: 2.25vw;
   }
 }
 
@@ -2058,6 +2112,14 @@
   .text-span-30 {
     font-size: 4.5vw;
     letter-spacing: -0.225vw;
+  }
+
+  .marquee-horizontal {
+    height: 4vh;
+  }
+
+  .text-block-4 {
+    font-size: 4vw;
   }
 }
 
