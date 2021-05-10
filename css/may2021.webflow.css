@@ -202,6 +202,10 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .txt-block.cs {
@@ -246,6 +250,13 @@
   margin-left: 0vw;
 }
 
+.txt-block.contact {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
 .text-block-2 {
   display: inline;
   color: #111920;
@@ -258,10 +269,15 @@
   color: #ededed;
 }
 
+.text-block-2.contact {
+  padding-left: 1.25vw;
+}
+
 .text-block-3 {
   margin-top: 3.25vh;
   color: #111920;
   font-size: 1.145vw;
+  line-height: 1;
   letter-spacing: -0.057vw;
 }
 
@@ -1050,6 +1066,7 @@
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
   font-style: italic;
+  font-weight: 400;
   letter-spacing: -0.06vw;
 }
 
@@ -1097,6 +1114,33 @@
   font-size: 1.25vw;
   line-height: 1;
   text-transform: uppercase;
+}
+
+.div-block-6 {
+  width: 100%;
+}
+
+.div-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-block-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.text-span-31 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.35vw;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.06vw;
 }
 
 @media screen and (max-width: 991px) {
@@ -1218,8 +1262,20 @@
     margin-top: 3vh;
   }
 
+  .txt-block.contact {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
   .text-block-2 {
     font-size: 2.5vw;
+  }
+
+  .text-block-2.contact {
+    padding-right: 2vw;
+    padding-left: 0vw;
   }
 
   .text-block-3 {
@@ -1555,11 +1611,11 @@
     padding-top: 10vh;
     padding-right: 4.5vw;
     padding-left: 4.5vw;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -1607,6 +1663,19 @@
 
   .text-block-4 {
     font-size: 2.25vw;
+  }
+
+  .div-block-6 {
+    display: none;
+  }
+
+  .div-block-8 {
+    margin-top: 10vh;
+  }
+
+  .text-span-31 {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
   }
 }
 
@@ -2120,6 +2189,11 @@
 
   .text-block-4 {
     font-size: 4vw;
+  }
+
+  .text-span-31 {
+    font-size: 4.5vw;
+    letter-spacing: -0.225vw;
   }
 }
 
