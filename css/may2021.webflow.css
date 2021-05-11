@@ -9,6 +9,10 @@
   width: 100vw;
   height: 100vh;
   padding-top: 1vh;
+  border-style: solid;
+  border-width: 1px 1px 0px;
+  border-color: transparent;
+  border-radius: 45px 45px 0px 0px;
   background-color: #ededed;
 }
 
@@ -180,6 +184,9 @@
   display: flex;
   width: 100vw;
   padding: 15vh 4vw 5vh;
+  border-style: solid;
+  border-width: 0px 1px;
+  border-color: transparent;
   background-color: #ededed;
 }
 
@@ -612,6 +619,10 @@
 .cs-card {
   display: block;
   width: 44.25vw;
+}
+
+.all-sections {
+  width: 100vw;
 }
 
 .cs-holder1 {
@@ -1165,6 +1176,12 @@
 .link-block-4 {
   margin-top: 1.5vh;
   text-decoration: none;
+}
+
+.top-space {
+  display: none;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media screen and (max-width: 991px) {
