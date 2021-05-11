@@ -309,6 +309,10 @@
   color: #ededed;
 }
 
+.text-block-3.projects {
+  line-height: 1.1;
+}
+
 .text-span-6 {
   font-family: 'PT Serif', serif;
   font-size: 1.2vw;
@@ -1983,11 +1987,11 @@
 
   .menu-item {
     margin-left: 3.5vw;
-    font-size: 3.5vw;
+    font-size: 3.75vw;
   }
 
   .menu-title {
-    font-size: 3.5vw;
+    font-size: 3.75vw;
   }
 
   .section-3 {
