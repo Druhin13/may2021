@@ -93,6 +93,12 @@
   letter-spacing: -0.13vw;
 }
 
+.text-block.fade-up.tricks {
+  overflow: hidden;
+  margin-bottom: -8px;
+  padding-bottom: 8px;
+}
+
 .main-text-holder {
   display: -webkit-box;
   display: -webkit-flex;
@@ -100,6 +106,11 @@
   display: flex;
   width: 100vw;
   margin-top: 5.5vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1188,6 +1199,11 @@
 }
 
 @media screen and (max-width: 991px) {
+  .section {
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+  }
+
   .home-hero-vid {
     width: 98vw;
     margin-left: 1vw;
@@ -1729,6 +1745,11 @@
 }
 
 @media screen and (max-width: 479px) {
+  .section {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
   .home-hero-vid {
     height: 74vh;
     border-radius: 30px;
@@ -1752,8 +1773,14 @@
     letter-spacing: -0.3375vw;
   }
 
+  .text-block.fade-up.tricks {
+    margin-bottom: -6px;
+    padding-bottom: 5px;
+    line-height: 1.1;
+  }
+
   .text-span-3 {
-    font-size: 7.35vw;
+    font-size: 7vw;
   }
 
   .text-span-4 {
