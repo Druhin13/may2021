@@ -1760,6 +1760,9 @@
 
 @media screen and (max-width: 479px) {
   .section {
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+    border-left-width: 1.5px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
   }
@@ -1829,6 +1832,8 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    border-right-width: 1.5px;
+    border-left-width: 1.5px;
   }
 
   .txt-block {
