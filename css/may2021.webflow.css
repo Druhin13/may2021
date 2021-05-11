@@ -32,6 +32,7 @@
   display: flex;
   width: 99vw;
   height: 78vh;
+  margin-right: 0.5vw;
   margin-left: 0.5vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -278,6 +279,8 @@
 
 .text-block-2.contact {
   padding-left: 0vw;
+  font-size: 1.145vw;
+  letter-spacing: -0.057vw;
 }
 
 .text-block-3 {
