@@ -1865,6 +1865,8 @@
 
   .text-block-2.contact {
     padding-right: 0vw;
+    font-size: 4.3vw;
+    letter-spacing: -0.215vw;
   }
 
   .text-block-3 {
@@ -1981,11 +1983,11 @@
 
   .menu-item {
     margin-left: 3.5vw;
-    font-size: 4.3vw;
+    font-size: 3.5vw;
   }
 
   .menu-title {
-    font-size: 4.3vw;
+    font-size: 3.5vw;
   }
 
   .section-3 {
@@ -2300,7 +2302,7 @@
   }
 
   .link-block-3 {
-    margin-right: 2.5vw;
+    margin-right: 3.5vw;
     margin-left: 0vw;
   }
 }
