@@ -195,7 +195,7 @@
   height: 78vh;
   border-radius: 45px;
   background-color: #000;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .opening-title {
@@ -236,7 +236,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
-  padding: 15vh 4vw 10vh;
+  padding: 15vh 4vw 12vh;
   border-style: solid;
   border-width: 0px 1px;
   border-color: transparent;
@@ -635,7 +635,7 @@
 
 .section-3 {
   width: 100vw;
-  padding: 15vh 4vw 8.15vh;
+  padding: 13vh 4vw 8.15vh;
   background-color: #ededed;
 }
 
@@ -680,7 +680,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.25;
+  opacity: 0.15;
 }
 
 .cs-background-video {
@@ -786,7 +786,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.15;
+  opacity: 0.1;
 }
 
 .cs-holder2 {
@@ -847,7 +847,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.25;
+  opacity: 0.15;
 }
 
 .cs-card4 {
@@ -897,7 +897,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.05;
+  opacity: 0;
 }
 
 .cs-holder3 {
@@ -959,7 +959,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.25;
+  opacity: 0.15;
 }
 
 .cs-card6 {
@@ -1009,7 +1009,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.15;
+  opacity: 0.05;
 }
 
 .cs-card7 {
@@ -1071,7 +1071,7 @@
   align-items: flex-end;
   border-radius: 45px 45px 0px 0px;
   background-color: #000;
-  opacity: 0.15;
+  opacity: 0.1;
 }
 
 .section-4 {
