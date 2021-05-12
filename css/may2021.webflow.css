@@ -17,7 +17,7 @@
   -ms-flex-align: stretch;
   align-items: stretch;
   background-color: #111920;
-  font-family: Helveticaneue, sans-serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -348,8 +348,16 @@
   margin-top: 3.25vh;
   color: #111920;
   font-size: 1.145vw;
-  line-height: 1;
+  line-height: 1.05;
   letter-spacing: -0.057vw;
+}
+
+.text-block-3.tablet {
+  line-height: 1.05;
+}
+
+.text-block-3.awards {
+  line-height: 1.05;
 }
 
 .text-block-3.cs {
@@ -361,17 +369,19 @@
 }
 
 .text-span-6 {
-  font-family: 'PT Serif', serif;
-  font-size: 1.2vw;
-  font-style: italic;
+  font-family: 'Sk modernist', sans-serif;
+  font-size: 1.145vw;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-7 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: lowercase;
 }
 
 .txt-block2 {
@@ -398,101 +408,115 @@
 }
 
 .text-span-8 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-9 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-10 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-11 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-12 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-13 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-14 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-15 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-16 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-17 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-18 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-19 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-20 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-21 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .div-block-3 {
@@ -1050,45 +1074,51 @@
 }
 
 .text-span-22 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-23 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-24 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-25 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-26 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-27 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .section-5 {
@@ -1132,25 +1162,28 @@
 }
 
 .text-span-28 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-29 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .text-span-30 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.2vw;
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .marquee-horizontal {
@@ -1219,11 +1252,12 @@
 }
 
 .text-span-31 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Sk modernist', sans-serif;
   font-size: 1.35vw;
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
   letter-spacing: -0.06vw;
+  text-transform: uppercase;
 }
 
 .link-block {
@@ -1282,6 +1316,7 @@
 
   .home-hero-vid {
     width: 98vw;
+    margin-right: 1vw;
     margin-left: 1vw;
     border-radius: 35px;
   }
@@ -1854,6 +1889,19 @@
 
 @media screen and (max-width: 479px) {
   .section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     border-top-width: 1.5px;
     border-right-width: 1.5px;
     border-left-width: 1.5px;
@@ -1994,6 +2042,7 @@
   }
 
   .text-block-3.awards {
+    margin-top: 3vh;
     line-height: 1.1;
   }
 
@@ -2003,6 +2052,10 @@
 
   .text-block-3.pre-testi {
     margin-top: 4vh;
+  }
+
+  .text-block-3.about {
+    margin-top: 3vh;
   }
 
   .text-span-6 {
@@ -2446,5 +2499,12 @@
   src: url('../fonts/palai.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sk modernist';
+  src: url('../fonts/Sk-Modernist-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
