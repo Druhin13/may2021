@@ -1997,6 +1997,14 @@
     line-height: 1.1;
   }
 
+  .text-block-3.pre-projects {
+    margin-top: 4vh;
+  }
+
+  .text-block-3.pre-testi {
+    margin-top: 4vh;
+  }
+
   .text-span-6 {
     font-size: 4.5vw;
     letter-spacing: -0.225vw;
