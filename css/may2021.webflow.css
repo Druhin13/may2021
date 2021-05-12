@@ -25,7 +25,7 @@
 .section {
   width: 100vw;
   height: 100vh;
-  padding-top: 0.5vh;
+  padding-top: 0.75vh;
   border-style: solid;
   border-width: 1px 1px 0px;
   border-color: transparent;
@@ -236,7 +236,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
-  padding: 15vh 4vw 5vh;
+  padding: 15vh 4vw 10vh;
   border-style: solid;
   border-width: 0px 1px;
   border-color: transparent;
@@ -317,6 +317,10 @@
   align-items: flex-end;
 }
 
+.txt-block.works {
+  width: 35vw;
+}
+
 .text-block-2 {
   display: inline;
   overflow: hidden;
@@ -342,6 +346,12 @@
 
 .text-block-2.fade-up3.tricks {
   overflow: hidden;
+}
+
+.text-block-2.works {
+  font-size: 2.6vw;
+  letter-spacing: -0.13vw;
+  text-transform: capitalize;
 }
 
 .text-block-3 {
@@ -625,7 +635,7 @@
 
 .section-3 {
   width: 100vw;
-  padding: 20vh 4vw 8.15vh;
+  padding: 15vh 4vw 8.15vh;
   background-color: #ededed;
 }
 
@@ -722,6 +732,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 5vh;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1551,6 +1562,10 @@
     padding-left: 0vw;
   }
 
+  .text-block-2.works {
+    font-size: 3.5vw;
+  }
+
   .text-block-3 {
     margin-top: 2vh;
     font-size: 1.85vw;
@@ -2122,6 +2137,10 @@
     width: 91vw;
   }
 
+  .txt-block.works {
+    width: 90vw;
+  }
+
   .text-block-2 {
     font-size: 5vw;
   }
@@ -2130,6 +2149,10 @@
     padding-right: 0vw;
     font-size: 4.3vw;
     letter-spacing: -0.215vw;
+  }
+
+  .text-block-2.works {
+    font-size: 6.5vw;
   }
 
   .text-block-3 {

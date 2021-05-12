@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed May 12 2021 18:16:52 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed May 12 2021 18:39:42 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="609358f814171f605138bc3e" data-wf-site="609358f814171f792638bc3c" lang="en">
 <head>
   <meta charset="utf-8">
@@ -61,6 +61,7 @@
 .fade-up11 .tricksword {opacity: 0;}
 .fade-up12 .tricksword {opacity: 0;}
 .fade-up13 .tricksword {opacity: 0;}
+.fade-up14 .tricksword {opacity: 0;}
 </style>
 </head>
 <body data-w-id="609358f814171f335a38bc3f" class="body">
@@ -116,6 +117,9 @@
         </div>
       </section>
       <section id="works" class="section-3">
+        <div class="txt-block works">
+          <div id="scroll-in14" class="text-block-2 works fade-up14 tricks">selected works</div>
+        </div>
         <div class="cs-holder1">
           <div class="cs-card">
             <div class="case-study-vid">
@@ -589,7 +593,22 @@ fadeUp13
     easing: "easeOutExpo",
     duration: 1000,
     delay: (el, i) => 50 * i
-  });  
+  }); 
+var fadeUp14 = anime.timeline({
+  loop: false,
+  autoplay: false,
+});
+fadeUp14 
+  .add({
+    targets: '.fade-up14 .tricksword',
+    translateY: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    rotateZ: [30,0],
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: (el, i) => 50 * i
+  });   
 // Wait before playing animation
 setTimeout(() => {  
 	// Put the play below this line
@@ -690,6 +709,13 @@ $('#scroll-in12').on('inview', function(event, isInView) {
 $('#scroll-in13').on('inview', function(event, isInView) {
   if (isInView) {
   fadeUp13.play();
+		// Put the play below this line
+  } else {
+  }
+});
+$('#scroll-in14').on('inview', function(event, isInView) {
+  if (isInView) {
+  fadeUp14.play();
 		// Put the play below this line
   } else {
   }
