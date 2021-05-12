@@ -25,7 +25,7 @@
 .section {
   width: 100vw;
   height: 100vh;
-  padding-top: 1vh;
+  padding-top: 0.5vh;
   border-style: solid;
   border-width: 1px 1px 0px;
   border-color: transparent;
@@ -168,21 +168,21 @@
 }
 
 .text-span-3 {
-  font-family: 'Palatino linotype c', sans-serif;
+  font-family: 'Palatino linotype c', Georgia, sans-serif;
   font-size: 2.8vw;
   font-style: italic;
   letter-spacing: -0.14vw;
 }
 
 .text-span-4 {
-  font-family: 'Palatino linotype c', sans-serif;
+  font-family: 'Palatino linotype c', Georgia, sans-serif;
   font-size: 2.8vw;
   font-style: italic;
   letter-spacing: -0.14vw;
 }
 
 .text-span-5 {
-  font-family: 'Palatino linotype c', sans-serif;
+  font-family: 'Palatino linotype c', Georgia, sans-serif;
   font-size: 2.8vw;
   font-style: italic;
   letter-spacing: -0.14vw;
@@ -1233,7 +1233,7 @@
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  font-family: Helveticaneue, sans-serif;
+  font-family: Helveticaneue;
   color: #111920;
   font-size: 1.25vw;
   line-height: 1;
@@ -2597,13 +2597,6 @@
   }
 }
 
-@font-face {
-  font-family: 'Helveticaneue';
-  src: url('../fonts/HelveticaNeue.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
 @font-face {
   font-family: 'Palatino linotype c';
   src: url('../fonts/palai.woff2') format('woff2');
