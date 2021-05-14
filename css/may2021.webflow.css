@@ -16,8 +16,9 @@
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  background-color: #111920;
+  background-color: #ededed;
   font-family: 'Sk modernist', sans-serif;
+  color: #ededed;
   font-size: 16px;
   line-height: 1;
 }
@@ -25,12 +26,10 @@
 .section {
   width: 100vw;
   height: 100vh;
-  padding-top: 0.75vh;
-  border-style: solid;
-  border-width: 1px 1px 0px;
-  border-color: transparent;
+  padding-top: 0.5vw;
+  border: 0px solid transparent;
   border-radius: 45px 45px 0px 0px;
-  background-color: #ededed;
+  background-color: #050505;
 }
 
 .background-video {
@@ -121,20 +120,24 @@
 
 .text-block.fade-up.tricks.t1 {
   padding-bottom: 6px;
+  color: silver;
 }
 
 .text-block.fade-up.tricks.t2 {
   padding-bottom: 6px;
+  color: silver;
 }
 
 .text-block.fade-up.tricks.t3 {
   margin-top: -6px;
   padding-bottom: 10px;
+  color: silver;
 }
 
 .text-block.fade-up.tricks.t4 {
   margin-top: -6px;
   padding-bottom: 10px;
+  color: silver;
 }
 
 .main-text-holder {
@@ -195,7 +198,7 @@
   height: 78vh;
   border-radius: 45px;
   background-color: #000;
-  opacity: 0.6;
+  opacity: 0.2;
 }
 
 .opening-title {
@@ -237,10 +240,8 @@
   display: flex;
   width: 100vw;
   padding: 15vh 4vw 12vh;
-  border-style: solid;
-  border-width: 0px 1px;
-  border-color: transparent;
-  background-color: #ededed;
+  border: 0px solid transparent;
+  background-color: #050505;
 }
 
 .txt-block {
@@ -342,10 +343,52 @@
 
 .text-block-2.fade-up2.tricks {
   overflow: hidden;
+  color: silver;
 }
 
 .text-block-2.fade-up3.tricks {
   overflow: hidden;
+  color: silver;
+}
+
+.text-block-2.fade-up4.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up5.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up6.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up7.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up8.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up9.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up10.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up11.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up12.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up13.tricks {
+  color: silver;
 }
 
 .text-block-2.works {
@@ -354,19 +397,25 @@
   text-transform: capitalize;
 }
 
+.text-block-2.works.fade-up14.tricks {
+  color: silver;
+}
+
 .text-block-3 {
-  margin-top: 3.25vh;
-  color: #111920;
+  margin-top: 2vh;
+  color: silver;
   font-size: 1.145vw;
   line-height: 1.05;
   letter-spacing: -0.057vw;
 }
 
 .text-block-3.tablet {
+  color: silver;
   line-height: 1.05;
 }
 
 .text-block-3.awards {
+  color: silver;
   line-height: 1.05;
 }
 
@@ -376,6 +425,10 @@
 
 .text-block-3.projects {
   line-height: 1.1;
+}
+
+.text-block-3.about {
+  color: silver;
 }
 
 .text-span-6 {
@@ -611,6 +664,14 @@
   text-transform: uppercase;
 }
 
+.menu-item.data1 {
+  color: #ededed;
+}
+
+.menu-item.data2 {
+  color: #ededed;
+}
+
 .menu-title {
   display: inline;
   margin-left: 0vw;
@@ -636,7 +697,7 @@
 .section-3 {
   width: 100vw;
   padding: 13vh 4vw 8.15vh;
-  background-color: #ededed;
+  background-color: #050505;
 }
 
 .case-study-vid {
@@ -1081,7 +1142,7 @@
   display: flex;
   width: 100vw;
   padding: 15vh 4vw 3vh;
-  background-color: #ededed;
+  background-color: #050505;
 }
 
 .text-span-22 {
@@ -1139,12 +1200,12 @@
   display: flex;
   width: 100vw;
   padding: 10vh 4vw;
-  background-color: #ededed;
+  background-color: #050505;
 }
 
 .testi-name {
   margin-top: 1.5vh;
-  color: #111920;
+  color: silver;
   font-size: 1.145vw;
   letter-spacing: -0.057vw;
 }
@@ -1163,7 +1224,7 @@
 
 .testi2 {
   margin-top: 0vh;
-  color: #111920;
+  color: silver;
   font-size: 1.145vw;
   letter-spacing: -0.057vw;
 }
@@ -1178,6 +1239,7 @@
 
 .text-span-28 {
   font-family: 'Sk modernist', sans-serif;
+  color: silver;
   font-size: 1.2vw;
   font-style: normal;
   letter-spacing: -0.06vw;
@@ -1329,18 +1391,19 @@
 
 .section-6 {
   padding: 3vh 4vw 10vh;
-  background-color: #ededed;
+  background-color: #050505;
 }
 
 .text-span-32 {
-  border-bottom: 1px solid #111920;
+  border-bottom: 1px solid silver;
   font-size: 1.2vw;
   letter-spacing: -0.06vw;
   text-transform: uppercase;
 }
 
 .social-text {
-  border-bottom: 1px solid #111920;
+  border-bottom: 1px solid silver;
+  color: silver;
   font-size: 1.2vw;
   letter-spacing: -0.06vw;
   text-transform: uppercase;
@@ -1372,31 +1435,28 @@
 }
 
 .link-6 {
-  color: #111920;
+  color: silver;
   text-decoration: none;
 }
 
 .link-7 {
-  border-bottom: 1px solid #111920;
-  color: #111920;
+  border-bottom: 1px solid silver;
   text-decoration: none;
 }
 
 .link-8 {
-  border-bottom: 1px solid #111920;
-  color: #111920;
+  border-bottom: 1px solid silver;
   text-decoration: none;
 }
 
 .link-9 {
-  border-bottom: 1px solid #111920;
-  color: #111920;
+  border-bottom: 1px solid silver;
   text-decoration: none;
 }
 
 .end {
   height: 1vh;
-  background-color: #ededed;
+  background-color: #050505;
 }
 
 .link-10 {
@@ -1446,8 +1506,37 @@
   text-decoration: none;
 }
 
+.grain {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 200;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.body-overlay {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 200;
+  display: none;
+  background-image: url('../images/redoverlay.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  opacity: 0.2;
+}
+
 @media screen and (max-width: 991px) {
   .section {
+    padding-top: 1vw;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
   }
@@ -1514,7 +1603,7 @@
   .black-overlay {
     width: 98vw;
     border-radius: 35px;
-    opacity: 0.6;
+    opacity: 0.2;
   }
 
   .opening-title {
@@ -2046,6 +2135,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 0vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2055,15 +2145,16 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    border-top-width: 1.5px;
-    border-right-width: 1.5px;
-    border-left-width: 1.5px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
   }
 
   .home-hero-vid {
     height: 74vh;
+    margin-top: 1vw;
     border-radius: 30px;
   }
 
@@ -2127,6 +2218,7 @@
     width: 98vw;
     height: 74vh;
     border-radius: 30px;
+    opacity: 0.3;
   }
 
   .opening-title {
@@ -2143,8 +2235,8 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    border-right-width: 1.5px;
-    border-left-width: 1.5px;
+    border-right-width: 0px;
+    border-left-width: 0px;
   }
 
   .txt-block {
@@ -2670,13 +2762,19 @@
     color: #111920;
     text-decoration: none;
   }
+
+  .body-overlay {
+    background-position: 20% 100%;
+    background-size: cover;
+    opacity: 0.2;
+  }
 }
 
 @font-face {
   font-family: 'Palatino linotype c';
   src: url('../fonts/palai.woff2') format('woff2');
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
   font-display: swap;
 }
 @font-face {
