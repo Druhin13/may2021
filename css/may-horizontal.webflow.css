@@ -290,7 +290,7 @@ body {
 }
 
 .txt-block.cs {
-  width: 35vw;
+  width: 44.25vw;
   margin-top: 3.25vh;
   margin-left: 0vw;
 }
@@ -914,16 +914,17 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 23.15vh;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  margin-top: 0vh;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .cs-card3 {
   display: block;
   width: 36.3vw;
+  margin-top: 18.5vh;
 }
 
 .case-study-vid3 {
@@ -1025,7 +1026,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 23.15vh;
+  margin-top: 0vh;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
@@ -1143,7 +1144,6 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 18.5vh;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
@@ -1543,7 +1543,7 @@ body {
 
 .end {
   height: 1vh;
-  background-color: #050505;
+  background-color: #ededed;
 }
 
 .link-10 {
@@ -1692,6 +1692,70 @@ body {
 
 .section-7 {
   background-color: #ededed;
+}
+
+.camera {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.hz-section {
+  position: relative;
+  overflow: visible;
+  height: 290vw;
+  background-color: #ededed;
+}
+
+.frame {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  height: 100%;
+}
+
+.item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 13vh;
+  padding-left: 4vw;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.item.last {
+  height: auto;
+  padding-top: 0vh;
+  padding-bottom: 8vh;
+  padding-left: 0vw;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.item.middle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90vw;
+  padding-top: 31vh;
+  padding-left: 7.45vw;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 991px) {
