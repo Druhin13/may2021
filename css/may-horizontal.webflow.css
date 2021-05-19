@@ -472,7 +472,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 22.65vw;
-  margin-top: 6vh;
+  margin-top: 5vh;
   margin-left: 4.6vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -751,7 +751,7 @@ body {
 
 .section-3 {
   width: 100vw;
-  padding: 13vh 4vw 8.15vh;
+  padding: 7.5vh 4vw 8.15vh;
   background-color: #ededed;
 }
 
@@ -1424,6 +1424,10 @@ body {
 .link-block-4 {
   margin-top: 1.5vh;
   text-decoration: none;
+}
+
+.all.locomotive-scroll {
+  height: 500vh;
 }
 
 .top-space {
